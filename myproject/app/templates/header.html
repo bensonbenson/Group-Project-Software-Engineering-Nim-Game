@@ -1,0 +1,30 @@
+<md-toolbar>
+      <div class="md-toolbar-tools">
+        <md-button ng-click="goToLogin()" aria-label="Login">
+          Home
+        </md-button>
+        <md-button ng-click="toggleLeft()" aria-label="Games">
+          Games
+        </md-button>
+        <md-button ng-click="" aria-label="Game">
+          Match History
+        </md-button>
+
+
+      </div>
+    </md-toolbar>
+
+    <md-sidenav class="md-sidenav-left" md-component-id="left"
+                md-disable-backdrop md-whiteframe="4">
+
+
+
+      <md-content layout-margin>
+        <!-- buttons go here -->
+        <md-button ng-click="goToNim()" aria-label="Nim">
+          Nim
+        </md-button>
+
+      </md-content>
+
+    </md-sidenav>
